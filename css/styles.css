@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2? family= Raleway:wght@700 & family= Roboto:wght@400;500;700;900 & display=swap");
+
+:root {
+  --text-font-family: „Roboto”, sans-serif;
+  --title-font-family: „Raleway”, sans-serif;
+  --section-color: #ffffff;
+  --text-alternate-color: #212121;
+  --link-active-color: #2196f3;
+}
+.global-header {
+  color: #757575;
+}
+
+body {
+  font-family: var(--text-font-family);
+  color: #212121;
+}
+
+.black {
+  font-family: var(--title-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.blue {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+p,
+h3,
+h4,
+h5,
+h6,
+em {
+  font-family: var(--text-font-family);
+  color: #757575;
+}
+.hero-backround {
+  background: #2f303a;
+}
+
+.global-header a {
+  font-family: var(--text-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.active {
+  color: var(--link-active-color);
+}
+.button-active {
+  background: #2196f3;
+}
+.button-active :hover {
+  color: #000000;
+}
+.button-inactive :hover {
+  color: #2196f3;
+}
+
+.button-active :focus {
+  color: #000000;
+}
+.button-inactive :focus {
+  background: #2196f3;
+}
+
+.section {
+  color: #ffffff;
+}
+.section-alternate {
+  color: #212121;
+}
+a {
+  color: #000000;
+}
+a:active {
+  color: #2196f3;
+}
+.grey {
+  color: #ffffff99;
+}
+.footer-backround {
+  background: #2f303a;
+}
+.pointer {
+  cursor: pointer;
+}
+.mail:hover {
+  forced-color-adjust: red;
+}
+a:hover,
+a:focus {
+  color: #2196f3;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
